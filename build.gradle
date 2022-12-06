@@ -1,0 +1,34 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.seleniumhq.selenium:selenium-java:4.4.0'
+    implementation 'io.github.bonigarcia:webdrivermanager:5.2.3'
+    implementation 'org.jetbrains:annotations:23.0.0'
+
+    testImplementation 'io.cucumber:cucumber-junit:7.9.0'
+
+    implementation 'io.cucumber:cucumber-core:7.9.0'
+
+    implementation 'io.cucumber:cucumber-java:7.9.0'
+
+    implementation 'com.github.javafaker:javafaker:1.0.2'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-engine:5.9.1'
+
+    implementation 'ru.yandex.qatools.ashot:ashot:1.5.4'
+
+    testImplementation 'junit:junit:4.13.1'
+
+
+}
+
+
